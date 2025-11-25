@@ -45,7 +45,7 @@ Este proyecto es el **frontend de una tienda e-commerce** creada como parte de u
 
 ## 📂 Estructura del proyecto
 
-M2_Final_NataliaGarcia
+.M2_Final_NataliaGarcia
 ├─ index.html               # Página principal, listado de productos
 ├─ product.html             # Página de detalle de producto
 ├─ assets/
