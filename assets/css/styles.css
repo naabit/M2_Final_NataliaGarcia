@@ -145,3 +145,7 @@ body {
   }
 }
 
+/* evita que la navbar tape el título al llegar al ancla */
+#productos {
+  scroll-margin-top: 90px; 
+}
