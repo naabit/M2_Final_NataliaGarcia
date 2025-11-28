@@ -8,6 +8,8 @@ body {
   color: var(--fg);
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Helvetica, Arial, sans-serif;
+
+  scroll-behavior: smooth;
 }
 
 /* Paleta*/
@@ -122,3 +124,24 @@ body {
   background: var(--c-max-blue-purple);
   color: #1f1a3a;
 }
+
+/* Ajustes responsive para pantallas pequeñas */
+@media (max-width: 575.98px) {
+  #offcanvasCart.offcanvas-end {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .cart-item {
+    align-items: flex-start;
+  }
+
+  .cart-item img {
+    margin-bottom: 0.5rem;
+  }
+
+  .cart-item .fw-bold {
+    font-size: 0.9rem;
+  }
+}
+
